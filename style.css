@@ -1,6 +1,22 @@
+* {
+	border: 1px solid black;
+	margin: 0;
+	padding: 0;
+}
+
 .header {
 	width: 100%;
 	max-height: 50px;
+}
+
+.footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.toprightul {
+	text-align: right;
 }
 
 .topright {
@@ -10,8 +26,9 @@
 	margin: 0px 0.5em;
 }
 
-.toprightul {
-	text-align: right;
+.bottomul {
+	text-align: left;
+	width: 100%;
 }
 
 .botleft {
@@ -19,11 +36,6 @@
 	text-align: left;
 	vertical-align: middle;
 	margin: 0px 0.5em;
-}
-
-.bottomul {
-	text-align: left;
-	width: 100%;
 }
 
 .botright {
@@ -34,21 +46,34 @@
 	float: right;
 }
 
-.footer {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
+.boutons {
+	display: inline-block;
+	margin: 0px 0.5em;
 }
 
+.middle {
+	position: absolute;
+	top: 20%;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
 
-
-* {
-	border: 1px solid black;
-	margin: 0;
-	padding: 0;
+#pays {
+	display: inline;
+	position: relative;
+	left: -60px;
 }
 
 #apps {
 	height: 100%;
 	padding: 0;
+}
+
+input {
+	width: 30%;
+	height: 3.5em;
+	background-color: white;
+	box-shadow: 3px 3px 5px 0.5px #ccc;
+
 }
