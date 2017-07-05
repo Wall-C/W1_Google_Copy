@@ -1,7 +1,9 @@
 * {
-	border: 1px solid black;
 	margin: 0;
 	padding: 0;
+	font-family: arial, sans-serif;
+	color: #616161;
+	box-sizing: border-box;
 }
 
 .header {
@@ -13,10 +15,16 @@
 	width: 100%;
 	position: absolute;
 	bottom: 0;
+	background-color: #F2F2F2;
+	height: 3em;
+	vertical-align: middle;
+
 }
 
 .toprightul {
 	text-align: right;
+	font-size: 12px;
+	margin-right: 2em;
 }
 
 .topright {
@@ -28,27 +36,45 @@
 
 .bottomul {
 	text-align: left;
-	width: 100%;
+	height: 50%;
 }
 
 .botleft {
 	display: inline-block;
 	text-align: left;
 	vertical-align: middle;
-	margin: 0px 0.5em;
+	vertical-align: middle;
+	margin: 1.5em -0.5em;
+	margin-left: 2em;
+	font-size: 12px;
 }
 
 .botright {
 	display: inline-block;
 	text-align: right;
 	vertical-align: middle;
-	margin: 0px 0.5em;
 	float: right;
+	margin: 1.5em -0.5em;
+	margin-right: 2em;
+	font-size: 12px;
 }
 
-.boutons {
+li.boutons {
 	display: inline-block;
 	margin: 0px 0.5em;
+	padding: 12px 17px;
+	background-color: #F7F7F7;
+	font-weight: bold;
+	border: 1px solid white;
+	font-size: 13px;
+
+}
+
+li.boutons:hover {
+	color: #222222;
+	border: 1px solid black;
+	box-sizing: content-box;
+
 }
 
 .middle {
@@ -62,7 +88,8 @@
 #pays {
 	display: inline;
 	position: relative;
-	left: -60px;
+	left: -55px;
+	top: -5px;
 }
 
 #apps {
@@ -70,12 +97,18 @@
 	padding: 0;
 }
 
+#login {
+	padding: 7px 12px;
+	background-color: #4285f4;
+	font-weight: bold;
+	color: white;
+}
+
 input {
 	width: 30%;
 	height: 3.5em;
 	background-color: white;
 	box-shadow: 3px 3px 5px 0.5px #ccc;
-
 }
 
 a{
